@@ -1,6 +1,26 @@
 {
   "newsItems": [
     {
+      "date": "2020/04/01",
+      "url": "https://www.city.sasebo.lg.jp/hokenhukusi/kenkou/covid19-hasseijokyo.html",
+      "text": "4月1日、佐世保市内において初（県内3例目）の新型コロナウイルス患者が発生しました。"
+    },
+    {
+      "date": "2020/03/28",
+      "url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kansensho/corona_nagasaki/corona_nagasaki_tool/",
+      "text": "長崎県LINE公式アカウント「新型コロナ対策パーソナルサポート」を始めました。下記のホームページをご覧いただき、ご利用ください。"
+    },
+    {
+      "date": "2020/03/28",
+      "url": "https://www.pref.nagasaki.jp/shared/uploads/2020/03/1585368528.pdf",
+      "text": "3月28日、壱岐市における本県1例目の新型コロナウイルス感染者が退院しましたのでお知らせします。"
+    },
+    {
+      "date": "2020/03/25",
+      "url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kansensho/corona_nagasaki/corona_nagasaki_shousai/",
+      "text": "長崎県で2例目となる新型コロナウイルス感染症の感染者が確認されました。感染者は、県内の感染症指定医療機関で入院治療中です。"
+    },
+    {
       "date": "2020/03/14",
       "url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kansensho/corona_nagasaki/corona_nagasaki_shousai/",
       "text": "長崎県で1例目となる新型コロナウイルスの感染者が確認されました。詳しい行動歴、濃厚接触者については、壱岐保健所において調査中です。"
