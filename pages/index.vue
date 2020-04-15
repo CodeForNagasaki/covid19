@@ -116,14 +116,18 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    const result1 = await bodik.fetch1()
-    this.$store.commit('setBodicData1', result1.records)
+    try {
+      const result1 = await bodik.fetch1()
+      this.$store.commit('setBodicData1', result1.records)
 
-    const result2 = await bodik.fetch2()
-    this.$store.commit('setBodicData2', result2.records)
+      const result2 = await bodik.fetch2()
+      this.$store.commit('setBodicData2', result2.records)
 
-    const news = await bodik.fetchNagasakiCityNews()
-    this.$store.commit('setNagasakiCityNews', news.records)
+      const news = await bodik.fetchNagasakiCityNews()
+      this.$store.commit('setNagasakiCityNews', news.records)
+    } catch (error) {
+      console.log(error, 'error')
+    }
   },
   methods: {},
   head(): MetaInfo {
